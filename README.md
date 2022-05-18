@@ -1,4 +1,4 @@
-# angular-route-service-rxjs-of
+# angular-route-service-rxjs-Observable-of-operator
 How use Angular Route, Service and RXJS Operator: Observable and Of
 
 Angular Material Card | Services | RXJS: Observable and Of Operator

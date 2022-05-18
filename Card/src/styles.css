@@ -1,0 +1,113 @@
+/* You can add global styles to this file, and also import other style files */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body { height: 100%; }
+body { 
+    margin: 0;
+    font-family:
+    Roboto, "Helvetica Neue", sans-serif; 
+    font-size: 16px;
+    }
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+:root{
+    --geral-border:7px;
+    --box-shadow: 0 0 7px rgb(8, 27, 8);
+}
+
+/* Change icon color */
+.icon-color{
+    color: green; 
+}
+
+/* Label with icon check */
+label.checked{
+    box-shadow:0 0 7px rgb(43, 65, 43);
+    width: 25px;
+    height: 25px;
+    position: relative;
+    display: inline-block;
+    border-radius: 50%; 
+}
+
+/* Label with icon close */
+label.unchecked{
+    box-shadow:0 0 7px rgb(235, 60, 60);
+    width: 25px;
+    height: 25px;
+    position: relative;
+    display: inline-block;
+    border-radius: 50%; 
+}
+
+/* change color of icon close */
+label.unchecked .icon-color{
+    color: rgb(235, 60, 60);
+}
+
+/* Card */
+.card{
+    box-shadow: 0 0 7px rgb(43, 65, 43) !important;
+    border-radius: 10px !important;
+}
+
+/* Card Header */
+.card-header{
+    align-items: center;
+    padding-top: 20px !important;
+    text-align: center;
+    box-shadow: 0 0 10px rgb(43, 65, 43) !important;
+    border-radius: 10px;
+}
+
+/* card subtitle */
+.card-subtitle{
+    color:black;
+}
+/* Card Content */
+.card-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 25px ;
+    
+}
+/* card item */
+.card-content-items{
+    display: flex;
+}
+
+/* Paragraph inside card items */
+.card-content-items p{
+    margin-left: 10px;
+}
+
+/* Card actions */
+.card-actions{
+    border-radius: 8px;
+    padding: 5px !important;
+}
+
+/* Card actions */
+.card-actions button{
+    padding: 10px; 
+    border-radius: 8px;
+    border: none;
+    width: 100%;
+    color: white;
+    background-color: rgba(43, 65, 43, 0.9);
+    text-align: center;
+    margin: 0 auto !important;
+}
+
+
+

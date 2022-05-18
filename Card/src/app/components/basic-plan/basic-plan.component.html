@@ -1,0 +1,40 @@
+
+     <!-- Material Card -->
+    <mat-card class="card">
+      <!-- Header card -->
+        <mat-card-header class="card-header">
+          <mat-card-title>{{basicPlan.price | currency:'USD'}}</mat-card-title>
+          <mat-card-title>{{basicPlan.type}}</mat-card-title>
+          <mat-card-subtitle class="card-subtitle">{{basicPlan.description}}</mat-card-subtitle>
+        </mat-card-header>
+        
+        <!-- Material Card Content -->
+        <mat-card-content class="card-content">
+          <section class="card-content-items" *ngFor="let prop of basicPlan.properties" >
+            <label class="unchecked" *ngIf="!prop.allow">
+                <span class="material-icons icon-color" >close</span>
+            </label>
+            
+            <label class="checked" *ngIf="prop.allow">
+                <span class="material-icons icon-color" >check</span>
+            </label>
+            <p>
+                {{prop.property}}
+            </p>
+          </section>
+        </mat-card-content>
+
+        <!-- Material card Divider -->
+        <mat-divider inset></mat-divider>
+
+        <!-- Material card action -->
+        <mat-card-actions class="card-actions">
+            <button mat-button>Subscribe</button>
+        </mat-card-actions>
+
+        
+      </mat-card>
+
+
+
+

@@ -1,0 +1,23 @@
+<!-- Section wit all content -->
+<section class="content">
+
+  <!-- Header Content -->
+  <header id="content-header">
+
+    <!-- Header Navigation -->
+    <nav id="navigation">
+      <a routerLink="basic/plan" [class]="{'selected': !selected}" (click)="selected = false">
+        Basic plan
+      </a>
+      <a routerLink="business/plan" [class]="{'selected': selected}" (click)="selected = true">
+        business plan 
+      </a>
+    </nav>
+  </header>
+
+  <!-- Main content -->
+  <main>
+    <router-outlet></router-outlet>
+  </main>
+
+</section>

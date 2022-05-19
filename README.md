@@ -1,7 +1,9 @@
 # angular-route-service-rxjs-Observable-of-operator
-How use Angular Route, Service and RXJS Operator: Observable and Of
+<b>How use Angular Material Card | Services | RXJS: Observable and Of Operator</b>
 
-Angular Material Card | Services | RXJS: Observable and Of Operator
+ - To run the Angular project, first open the project folder, in this case <b>Card</b> with any IDE, e.g. Visual Studio ... etc 
+ - Finally run the command <b>ng serve</b>
+
 
 Layout:
 

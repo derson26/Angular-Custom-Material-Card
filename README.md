@@ -1,4 +1,4 @@
-# angular-route-service-rxjs
+# Angular-Material-Card
 <b>How use Angular Material Card | Services | RXJS: Observable and Of Operator</b>
 
  - To run the Angular project, first open the project folder, in this case <b>Card</b> with any IDE, e.g. Visual Studio ... etc 
